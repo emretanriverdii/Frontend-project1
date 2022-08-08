@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+
+.header-post{
+    border-top: 1px solid white;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: center;
+   background:linear-gradient(-180deg,rgb(0, 50, 90),rgb(6, 131, 125),rgb(88, 192, 182),rgb(25, 125, 115),rgb(0, 50, 90)) ;
+   object-fit:cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   color: rgb(64, 116, 113); 
+}
+
+.header-trend-post{
+    height: 100%;
+    width: 80%;
+}
+.header-trend-post-baslik{
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+.header-trend-post-baslik:after{
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 0 auto;
+    display: block;
+    margin-top: 10px;
+}
+.header-trend-postlar{
+    
+}
+.trend-post{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.trend-post-img{
+    margin:5px 10px;
+    border-radius: 10px;
+    position: relative;
+    transition: 1s ease-in;
+}
+.trend-post-img:hover::after{
+    content: "";
+    width: 100%;
+    height: 98%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(rgb(0 0 0 / 60%)0 0);
+    border-radius: 10px;
+}
+
+.trend-post-img img{
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+.devamini-gor{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.devamini-gor button{
+    width: 150px;
+    height: 35px;
+    border-radius: 30px;
+    border: 1px solid white;
+    background:none;
+    margin-bottom: 15px;
+}
+.devamini-gor button a{
+    color: white;
+    text-decoration: none;
+}
